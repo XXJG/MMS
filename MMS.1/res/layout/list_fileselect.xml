@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:paddingLeft="10dip"
+	android:paddingTop="5dip"
+	android:paddingBottom="5dip"
+	android:background="@drawable/background_list"
+	>
+	<ImageView android:id="@+id/listitem_pic"
+		android:layout_width="wrap_content" 
+		android:layout_height="fill_parent"
+		android:layout_alignParentTop="true" 
+		android:layout_alignParentBottom="true"
+		android:adjustViewBounds="true"
+		android:padding="4dip" />
+	<TextView android:id="@+id/listitem_title"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/listitem_pic"
+		android:layout_alignParentRight="true" 
+		android:layout_alignParentTop="true"
+		android:singleLine="true"
+		android:maxLength="20"
+		android:layout_above="@+id/listitem_content"
+		android:layout_alignWithParentIfMissing="true" 
+		android:gravity="center_vertical"
+		android:text="@+id/listitem_title" 
+		android:textColor="@color/btnMainTextColor"
+		android:textSize="20dip" />
+	<TextView android:id="@+id/listitem_content"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/listitem_pic"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true" 
+		android:singleLine="true"
+		android:ellipsize="marquee" 
+		android:text="@+id/item_content"
+		android:textColor="@color/btnSecondTextColor"
+		android:textSize="12dip" />	
+</RelativeLayout>

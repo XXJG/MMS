@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="viewBK">#FFFFFF</color>
+	<color name="Line">#BDCCCC</color>
+	<color name="btnBKNormal">#F0F0F0</color>
+	<color name="btnMainTextColor">#282828</color>
+	<color name="btnSecondTextColor">#707070</color>
+	<color name="bkMainCutOffRule">#707070</color>
+	<color name="bkSecondCutOffRule">#FFFFFF</color>
+</resources>

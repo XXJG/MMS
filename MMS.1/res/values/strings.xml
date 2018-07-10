@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WinSMS</string>
+    
+    <string name="this_telephone"> 本机号码 :</string>
+    <string name="receiver_telephone"> 接收号码 :</string>
+    <string name="from"> From :</string>
+    <string name="to"> To       :</string>
+    <string name="date"> Date :</string>
+    <string name="next_option">下次设置</string>
+    <string name="please_input_your_right_telephone">请正确输入您的手机号</string>
+    <string name="send_key">由于对方不是您的好友，系统正在请求对方为好友，接收到对方发送的确认，即可成为好友。</string>
+    <string name="ensure_key">我希望加您为好友。</string>
+    <string name="ensure_key_too">我也希望加您为好友。</string>
+    <string name="secure_notice">Notice:\n对方不是您的好友，短信内容不安全  \nBody:\n</string>
+    <string name="secure_notice_insign">Notice:\n身份认证失败，短信内容不安全\nBody:\n</string>
+    <string name="please_input_your_right_sending_telephone">请正确输入您的接受号码</string>
+    <string name="set_user_msg">设置用户信息</string>
+    <string name="receive_box">收件箱</string>
+    <string name="receive_box_exption">您可以查看您的所有收到的短信信息</string>
+     <string name="receive_box_exception">对不起，收件箱繁忙中，请稍后...</string>
+    <string name="send_box">发件箱</string>
+    <string name="send_box_exption">您可以查看您的所有发出的短信信息</string>
+    <string name="new_message">写信息</string>
+    <string name="new_message_exption">您可以编辑新的短信并发送</string>
+    <string name="scan_message">浏览信息</string>
+    
+    
+    <string name="send">发送</string>
+    <string name="send_again">重新发送</string>
+    <string name="ensure_friend">确认好友</string>
+    <string name="reply">回复</string>
+    <string name="exit">退出</string>
+    <string name="ensure">确定</string>
+    <string name="delete">删除</string>
+    <string name="delete_all">全部删除</string>
+    <string name="cancel">取消</string>
+    <string name="notice_send_success">短信发送成功</string>
+    <string name="notice_send_falied">短信发送失败</string>
+    <string name="notice_receiver_success">短信接受成功</string>
+    <string name="notice_receiver_failed">短信接受失败</string>
+    <string name="your_telephone">发送号码</string>
+    
+    <string name="other_file">其他文件</string>
+    <string name="enctypt_file">加密文件</string>
+    <string name="key_file">密钥文件</string>
+    <string name="independet_enctypt_file">独立的加密文件</string>
+    <string name="independent_key_file">独立的密钥文件</string>
+    <string name="incomplete_enctypt_file">不完整的加密文件...</string>
+    <string name="incomplete_key_file">不完整的密钥文件...</string>
+</resources>
